@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.body {
+  padding: 1rem;
+  margin-top: 6rem;
+
+  background-color: rgb(244, 244, 244);
+}
+
+div.citizens {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: DM Serif Display;
+}
+
+div.header-citizens {
+  padding: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 0;
+}
+
+img.canada {
+  height: 50px;
+}
+
+div.canada-section {
+  padding-left: 1.8rem;
+}
+
+p.partnership {
+  margin-bottom: 1.5rem;
+}
+
+button.btn-citizen {
+  border-radius: 0.6rem;
+  margin: 0.5rem;
+  text-transform: capitalize;
+}
+button.aaa {
+  background-color: #0c4772;
+}
+button.bbb {
+  background-color: #24dfff;
+}
+
+button.aaa:hover {
+  background-color: #072941;
+  color: rgb(212, 212, 212);
+}
+button.bbb:hover {
+  background-color: #1ebfdc;
+  color: rgb(212, 212, 212);
+}
+
+div.brand-message {
+  padding: 1.8rem;
+  display: grid;
+  direction: ltr;
+  cursor: default;
+  gap: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+  background-color: rgb(18, 72, 112);
+}
+
+div.footer__link {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.57);
+
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 54px;
+}
+
+a:hover {
+  color: white;
+}
+
+div.wrapper {
+  margin: 5rem;
+}
+
+div.footer-wrap {
+  padding: 8rem;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.newsletter {
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 2rem;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 1rem;
+
+  border-bottom: rgba(255, 255, 255, 0.484) solid 2px;
+}

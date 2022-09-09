@@ -1,0 +1,59 @@
+.header {
+  top: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1rem;
+
+  padding-bottom: 0;
+  z-index: 999;
+
+  background-color: white;
+}
+.header .logoContent {
+  display: flex;
+  align-items: center;
+}
+.header .logoContent .logo img {
+  height: 5rem;
+}
+
+.header .logoContent .logoName {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.header a:link {
+  text-decoration: none;
+}
+.header a {
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+  color: var(--black);
+  font-weight: bold;
+}
+
+nav.navbar {
+  padding-left: 2rem;
+  padding-right: -2rem;
+}
+
+a.nav-btn {
+  font-weight: normal;
+}
+
+img.login-logo {
+  height: 25px;
+  width: 25px;
+}
+
+a.login {
+  margin: 0;
+}
