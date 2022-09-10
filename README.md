@@ -1,3 +1,5 @@
+![Botler Logo](https://github.com/thaian161/Botler-challenge/blob/master/public/docs/botler-logo.png)
+
 # Front-end Botler Challenge
 
 Create a replica of https://botler.ai/en/citizens in 2 hours using React.JS and Material UI
