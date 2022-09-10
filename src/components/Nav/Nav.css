@@ -57,3 +57,8 @@ img.login-logo {
 a.login {
   margin: 0;
 }
+
+.navbar a:hover {
+  cursor: pointer;
+  color: black;
+}
