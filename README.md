@@ -1,6 +1,12 @@
+<div align="center">
+
 ![Botler Logo](https://github.com/thaian161/Botler-challenge/blob/master/public/docs/botler-logo.png)
 
-# Front-end Botler Challenge
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto&size=30&pause=1000&vCenter=true&width=435&lines=Font-end+Botler+Challenge+GitHub)](https://git.io/typing-svg)
+
+</div>
+
+
 
 Create a replica of https://botler.ai/en/citizens in 2 hours using React.JS and Material UI
 
