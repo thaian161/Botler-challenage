@@ -65,3 +65,6 @@ div.brand-message {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.brand-message p {
+  padding-right: 5rem;
+}
