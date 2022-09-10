@@ -2,7 +2,7 @@
 
 ![Botler Logo](https://github.com/thaian161/Botler-challenge/blob/master/public/docs/botler-logo.png)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&pause=1000&color=124870&center=true&vCenter=true&width=450&lines=Front-end+Botler+Challenge)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&size=35&pause=1000&color=82DCFB&center=true&vCenter=true&width=435&lines=Front-end+Botler+Challenge)](https://git.io/typing-svg)
 
 </div>
 
