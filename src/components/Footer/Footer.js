@@ -18,7 +18,7 @@ export default function Footer() {
             <a href="https://botler.ai/en/" to="/">
               Home
             </a>
-            <a href="https://botler.ai/en/citizens" to="/">
+            <a id="current-page" href="https://botler.ai/en/citizens" to="/">
               Botler for Citizens
             </a>
             <a href="https://botler.ai/en/login" to="/">

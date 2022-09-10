@@ -1,12 +1,24 @@
-import Button from '@mui/material/Button';
+import { useState } from 'react';
 
+import Button from '@mui/material/Button';
 import './Body.css';
 
 export default function Nav() {
+  const [colorChange, setColorChange] = useState(false);
+
+  const changeBodyColor = () => {
+    if (window.scrollY >= 80) {
+      setColorChange(true);
+    } else {
+      setColorChange(false);
+    }
+  };
+  window.addEventListener('scroll', changeBodyColor);
+
   return (
-    <section className="body">
+    <section className={colorChange ? 'body colorChange' : 'body'}>
       <div className="header-citizens">
-        <div className="citizens">Botler For Citizens</div>
+        <div className="citizens" >Botler For Citizens</div>
         <div>
           <Button className="btn-citizen aaa" variant="contained">
             Request Access

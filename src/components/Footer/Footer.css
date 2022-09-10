@@ -38,6 +38,9 @@ div.newsletter {
   padding: 2rem;
 
   height: 10rem;
+  /* vertical-align: middle; */
+
+  align-self: center;
 }
 
 input {
@@ -84,4 +87,8 @@ div.footer--bottom {
   border-top: 2px white solid;
 
   margin: 1rem;
+}
+
+a#current-page {
+  color: white;
 }

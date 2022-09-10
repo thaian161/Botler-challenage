@@ -4,7 +4,17 @@
   padding: 1rem;
   margin-top: 8rem;
 
-  background-color: rgb(244, 244, 244);
+  background-color: white;
+}
+
+.body.colorChange {
+  background: rgb(224, 224, 224);
+  background: linear-gradient(
+    180deg,
+    rgba(224, 224, 224, 1) 0%,
+    rgba(246, 246, 246, 1) 22%,
+    rgba(242, 242, 242, 1) 46%
+  );
 }
 
 div.citizens {
@@ -68,3 +78,4 @@ div.brand-message {
 .brand-message p {
   padding-right: 5rem;
 }
+
