@@ -7,11 +7,12 @@
 </div>
 
 ---
+
 - Create a replica of https://botler.ai/en/citizens in 2 hours using React.JS and Material UI
 
-- Two hours were marked on the timeline by my commit: "complete at 2:18pm CDT - 2 hours"
+- Two hours were marked on the timeline by my commit: **_"complete at 2:18pm CDT - 2 hours"_**
 
-- Though I did not accomplish all the target goals of this challenge within the 2-hour time limit as I hoped for, I found it very exciting and fun, especially since it allowed me to practice real-life skills instead of just answering multiple choice questions or taking a theory test. 
+- Though I did not accomplish all the target goals of this challenge within the 2-hour time limit as I hoped for, I found it very fun and exciting, especially since it allowed me to practice real-life skills instead of just answering multiple choice questions or taking a theory test.
 
-- Therefore, in order to increase my knowledge of a real-life project through practice and to satisfy my curiosity; 
-I've decided to continue working to complete this challenge 100% after the two-hours mark using different branches 
+- Therefore, in order to increase my knowledge of a real-life project through practice and to satisfy my curiosity;
+  I've decided to continue working to complete a 100% of this challenge after the two-hours mark using different branches
