@@ -1,6 +1,10 @@
 import Button from '@mui/material/Button';
 import { IconButton } from '@mui/material';
 import EastIcon from '@mui/icons-material/East';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Body.css';
 import logo from './images/logo.png';
@@ -134,7 +138,13 @@ export default function Nav() {
               <span> Cookie Policy</span>
             </div>
             <div>
-              
+              <InstagramIcon />
+              <TwitterIcon />
+
+              <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+
+    
+            
             </div>
           </div>
         </div>
