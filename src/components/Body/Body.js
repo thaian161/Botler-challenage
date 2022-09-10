@@ -1,13 +1,6 @@
 import Button from '@mui/material/Button';
-import { IconButton } from '@mui/material';
-import EastIcon from '@mui/icons-material/East';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Body.css';
-import logo from './images/logo.png';
 
 export default function Nav() {
   return (
@@ -73,82 +66,6 @@ export default function Nav() {
           </p>
         </div>
       </div>
-
-      <footer>
-        <div classname="wrapper">
-          <div className="footer-wrap">
-            <div className="footer__link">
-              <a href="https://botler.ai/en/" className="nav-btn" to="/">
-                Home
-              </a>
-              <a
-                href="https://botler.ai/en/citizens"
-                className="nav-btn"
-                to="/"
-              >
-                Botler for Citizens
-              </a>
-              <a href="https://botler.ai/en/login" className="nav-btn" to="/">
-                Botler for Teams
-              </a>
-              <a
-                href="https://botler.ai/en/request-access"
-                className="nav-btn"
-                to="/"
-              >
-                Request Access
-              </a>
-              <a
-                href="https://botler.ai/en/register-partner"
-                className="nav-btn"
-                to="/"
-              >
-                Partner with Us
-              </a>
-              <a href="https://botler.ai/en/press" className="nav-btn" to="/">
-                Press
-              </a>
-              <a
-                href="https://botler.ai/en/contact-us"
-                className="nav-btn"
-                to="/"
-              >
-                Contact Us
-              </a>
-            </div>
-            <div className="newsletter">
-              <img src={logo} alt="logo" />
-              <p>
-                Stay informed on Botler’s latest developments through our
-                newsletter.
-              </p>
-              <form>
-                <input placeholder="name@canada.ca"></input>
-                <IconButton style={{ color: 'white' }}>
-                  <EastIcon />
-                </IconButton>
-              </form>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <span> Term & Conditions</span>
-              <span> Privacy Policy</span>
-              <span> Cookie Policy</span>
-            </div>
-            <div>
-              <InstagramIcon />
-              <TwitterIcon />
-
-              <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
-
-    
-            
-            </div>
-          </div>
-        </div>
-      </footer>
     </section>
   );
 }
