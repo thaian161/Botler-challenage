@@ -1,6 +1,9 @@
 import Button from '@mui/material/Button';
+import { IconButton } from '@mui/material';
+import EastIcon from '@mui/icons-material/East';
+
 import './Body.css';
-import logo from './images/botler-logo.png';
+import logo from './images/logo.png';
 
 export default function Nav() {
   return (
@@ -115,7 +118,23 @@ export default function Nav() {
                 Stay informed on Botler’s latest developments through our
                 newsletter.
               </p>
-              <input placeholder="name@canada.ca"></input>
+              <form>
+                <input placeholder="name@canada.ca"></input>
+                <IconButton style={{ color: 'white' }}>
+                  <EastIcon />
+                </IconButton>
+              </form>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <span> Term & Conditions</span>
+              <span> Privacy Policy</span>
+              <span> Cookie Policy</span>
+            </div>
+            <div>
+              
             </div>
           </div>
         </div>
