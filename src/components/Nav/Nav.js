@@ -5,20 +5,20 @@ export default function Nav() {
   return (
     <header className="header">
       <div className="logoContent">
-        <a href="/" className="logo">
+        <a href="https://botler.ai/en/" className="logo">
           <img src={logo} alt="Botler AI logo" />
         </a>
       </div>
 
       <nav className="navbar">
-        <a href="/" className="login">
+        <a href="https://botler.ai/en/login" className="login">
           <img
             className="login-logo"
             src="https://cdn-icons-png.flaticon.com/512/1828/1828391.png"
             alt="Log in"
           />
         </a>
-        <a href="/" className="nav-btn" to="/">
+        <a href="https://botler.ai/en/login" className="nav-btn" to="/">
           Login
         </a>
         <a href="/" className="nav-btn" to="/about">

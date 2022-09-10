@@ -18,7 +18,7 @@ export default function Nav() {
   return (
     <section className={colorChange ? 'body colorChange' : 'body'}>
       <div className="header-citizens">
-        <div className="citizens" >Botler For Citizens</div>
+        <div className="citizens">Botler For Citizens</div>
         <div>
           <Button className="btn-citizen aaa" variant="contained">
             Request Access
@@ -52,7 +52,7 @@ export default function Nav() {
         </div>
         <div>
           <img
-            src="https://botler.ai/static/media/citizen03.b805ed7d.png"
+            src="https://botler.ai/static/media/citizen01.bf88121e.png"
             alt="Canada"
           />
           <p>
@@ -66,7 +66,7 @@ export default function Nav() {
         </div>
         <div>
           <img
-            src="https://botler.ai/static/media/citizen02.3e0c26d5.png"
+            src="https://botler.ai/static/media/citizen03.b805ed7d.png"
             alt="Canada"
           />
           <p>
