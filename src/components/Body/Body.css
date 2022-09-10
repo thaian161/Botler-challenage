@@ -65,49 +65,6 @@ div.brand-message {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-footer {
-  background-color: rgb(18, 72, 112);
-}
-
-div.footer__link {
-  display: flex;
-  flex-direction: column;
-}
-a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.57);
-
-  font-family: Poppins;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 54px;
-}
-
-a:hover {
-  color: white;
-}
-
-div.wrapper {
-  margin: 5rem;
-}
-
-div.footer-wrap {
-  padding: 8rem;
-  display: flex;
-
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-div.newsletter {
-  background-color: rgba(255, 255, 255, 0.06);
-  padding: 2rem;
-}
-
-input {
-  background-color: transparent;
-  border: none;
-  padding-bottom: 1rem;
-
-  border-bottom: rgba(255, 255, 255, 0.484) solid 2px;
+.brand-message p {
+  padding-right: 5rem;
 }
