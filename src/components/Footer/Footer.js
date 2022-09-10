@@ -6,8 +6,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 
-
 import logo from './images/logo.png';
+import './Footer.css';
 
 export default function Footer() {
   return (
