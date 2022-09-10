@@ -18,7 +18,7 @@ export default function Nav() {
   return (
     <section className={colorChange ? 'body colorChange' : 'body'}>
       <div className="header-citizens">
-        <div className="citizens">Botler For Citizens</div>
+        <div className="citizens" >Botler For Citizens</div>
         <div>
           <Button className="btn-citizen aaa" variant="contained">
             Request Access

@@ -78,3 +78,7 @@ div.brand-message {
 .brand-message p {
   padding-right: 5rem;
 }
+
+a#current-page {
+  color: white;
+}
